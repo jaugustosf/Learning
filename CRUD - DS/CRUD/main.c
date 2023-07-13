@@ -72,10 +72,32 @@ Manga* Add(Manga* source, int key, char *name_manga, char *demography, unsigned 
     return source;
 }
 
+void print(Manga *source){
+    if(source != NULL){
+        printf("ID: %d | Titulo - %s | Demografia - %s | Paginas - %d | Editora - %s | Preco - RS %.2f\n",source->key, source->name_manga, source->demography, source->numpag, source->publisher, source->price);
+        print(source->left);
+        print(source->right);
+    }
+}
 
 
 int main(){
-    //source = Add(source, 1, "Real", "Seinen", 200, "Panini", 34.90);
+    
 
+
+
+
+
+
+
+    /*
+    source = Add(source, 6, "Real", "Seinen", 200, "Panini", 34.90);
+    source = Add(source, 9, "One Piece", "Shounen", 100, "Panini", 9.99);
+    source = Add(source, 7, "Naruto", "Shounen", 200, "Panini", 8.99);
+    source = Add(source, 3, "Berserk", "Seinen", 300, "Panini", 12.99);
+    source = Add(source, 4, "Attack on Titan", "Shounen", 150, "Panini", 10.99);
+    source = Add(source, 5, "Death Note", "Shounen", 120, "New Pop", 7.99);
+    */
+    print(source);
     return 0;
 }
