@@ -60,7 +60,6 @@ void insercao_arvore(int x){
 }
 
 void pre(NO *pt){
-    
     printf("%d ", pt->chave);
     if(pt->esq != NULL){
         pre(pt->esq);
@@ -70,24 +69,79 @@ void pre(NO *pt){
     }
 }
 
+void in(NO *pt){
+    if(pt->esq != NULL){
+        in(pt->esq);
+    }
+    printf("%d ", pt->chave);
+    if(pt->dir != NULL){
+        in(pt->dir);
+    }
+}
 
+void pos(NO *pt){
+    if(pt->esq != NULL){
+        pos(pt->esq);
+    }
+    if(pt->dir != NULL){
+        pos(pt->dir);
+    }
+    printf("%d ", pt->chave);
+}
+
+void Ppre(NO *pt){
+    // int i = 0;
+    if(pt != NULL){
+        printf("%d ", pt->chave);
+        Ppre(pt->esq);
+        Ppre(pt->dir);
+    }
+}
+
+void Iin(NO *pt){
+    //static int i = 0;
+    if(pt != NULL){
+        
+        Iin(pt->esq);
+        printf("%d ", pt->chave);
+        Iin(pt->dir);
+    }
+}
+
+void Ppos(NO *pt){
+    //static int i = 0;
+    if(pt != NULL){
+        
+        Ppos(pt->esq);
+        Ppos(pt->dir);
+        printf("%d ", pt->chave);
+    }
+}
 
 int main(){
-    insercao_arvore(30);
-    insercao_arvore(20);
-    insercao_arvore(40);
-    insercao_arvore(10);
-    insercao_arvore(25);
-    insercao_arvore(5);
-    insercao_arvore(15);
-    insercao_arvore(22);
-    insercao_arvore(35);
-    insercao_arvore(50);
-    insercao_arvore(45);
-    insercao_arvore(60);
+    insercao_arvore(6);
+    insercao_arvore(9);
+    insercao_arvore(7);
+    insercao_arvore(3);
+    insercao_arvore(4);
+    insercao_arvore(5);   
+
+    printf("Em pre-order\n");
     pre(raiz);
+    printf("\n");
+    Ppre(raiz);
+    printf("\n");
+
+    printf("Em In-order\n");
+    in(raiz);
+    printf("\n");
+    Iin(raiz);
+    printf("\n");
+    
+    printf("Em pos-order\n");
+    pos(raiz);
+    printf("\n");
+    Ppos(raiz);
     
     return 0;
 }
-
-

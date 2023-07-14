@@ -8,6 +8,8 @@ typedef struct Node {
     struct Node* direita;
 } Node;
 
+Node* raiz = NULL;
+
 // Função para criar um novo nó
 Node* criarNo(int chave) {
     Node* novoNo = (Node*)malloc(sizeof(Node));
@@ -24,16 +26,23 @@ Node* inserir(Node* raiz, int chave) {
         return criarNo(chave);
     }
 
+    // Verifica se a chave já existe na árvore
+    if (chave == raiz->chave) {
+        printf("Chave duplicada: %d\n", chave);
+        return raiz;
+    }
+
     // Caso contrário, percorre a árvore recursivamente
     if (chave < raiz->chave) {
         raiz->esquerda = inserir(raiz->esquerda, chave);
-    } else if (chave > raiz->chave) {
+    } else {
         raiz->direita = inserir(raiz->direita, chave);
     }
 
     // Retorna a raiz da árvore atualizada
     return raiz;
 }
+
 
 // Função para pesquisar um nó na ABB
 Node* pesquisar(Node* raiz, int chave) {
@@ -104,7 +113,7 @@ void percorrerEmOrdem(Node* raiz) {
 }
 
 int main() {
-    Node* raiz = NULL;
+
 
     // Inserindo nós na ABB
     raiz = inserir(raiz, 50);
@@ -116,23 +125,23 @@ int main() {
     raiz = inserir(raiz, 80);
 
     // Percorrendo a árvore em ordem
-    printf("Arvore em ordem: ");
+    printf("Árvore em ordem: ");
     percorrerEmOrdem(raiz);
     printf("\n");
 
     // Pesquisando um nó
     Node* noPesquisado = pesquisar(raiz, 40);
     if (noPesquisado != NULL) {
-        printf("No encontrado: %d\n", noPesquisado->chave);
+        printf("Nó encontrado: %d\n", noPesquisado->chave);
     } else {
-        printf("No nao encontrado.\n");
+        printf("Nó não encontrado.\n");
     }
 
     // Excluindo um nó
     raiz = excluir(raiz, 30);
 
     // Percorrendo a árvore novamente após a exclusão
-    printf("Arvore em ordem apos exclusao: ");
+    printf("Árvore em ordem após exclusão: ");
     percorrerEmOrdem(raiz);
     printf("\n");
 
