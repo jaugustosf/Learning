@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Font Size</title>
+
+        <style type="text/CSS">
+            div {
+                font-size: 60px;
+            }            
+            .text{
+                font-size: 1em;
+
+            }
+
+            .text2 {
+                font-size: 32px;
+            }
+            
+            .text3 {
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <!-- Como a div está com 60 pixels, o .text e o .text3 iram teram sua medida calculada em relação ao pai deles
+    que no caso será a div, se eles tiverem 1em eles teram 60 pixels de tamanho -->
+    
+    <body>
+        <p class = "text2"> Content1</p>
+
+        <div>
+            <p class = "text"> Content2</p>
+            <p class = "text2"> Content3</p>
+            <p class = "text3"> Content4</p>
+        </div>
+    </body>
+</html>
