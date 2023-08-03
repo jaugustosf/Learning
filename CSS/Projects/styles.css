@@ -1,0 +1,44 @@
+.body {
+    background: url(images/fundo.png);
+    font: 16px arial;
+}
+
+#Limit{
+    width: 900px;
+}
+
+#Menu {
+    background-color: #d2d2c1;
+    padding: 18px;
+}
+
+.menu{
+    color: #4b566a;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content {
+    background-color: #e8e8d9;
+    padding: 23px;
+    font-size: 1em;
+}
+
+#footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #828271;
+}
+
+.imgBorder {
+    border: #d2d2c1 10px solid;
+}
+
+.center {
+    margin: auto;
+}
+
