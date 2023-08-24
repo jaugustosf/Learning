@@ -1,3 +1,5 @@
+package Variables
+
 fun main() {
     var brandVar = "August"       //Var é mutável.
     brandVar = "Augusto"

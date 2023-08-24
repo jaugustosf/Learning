@@ -1,3 +1,5 @@
+package Strings
+
 fun main() {
     val name1 = "Saleh"
     val name2 = "Jamila"

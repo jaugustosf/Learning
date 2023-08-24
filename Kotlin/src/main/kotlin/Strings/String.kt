@@ -1,3 +1,5 @@
+package Strings
+
 fun main() {
     var name = "August"
     println(name.length)

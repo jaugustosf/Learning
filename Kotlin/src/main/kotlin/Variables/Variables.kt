@@ -1,3 +1,5 @@
+package Variables
+
 fun main() {
     var name: String = "Joao"
     var age: Int = 22

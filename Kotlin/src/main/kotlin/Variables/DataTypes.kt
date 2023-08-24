@@ -1,3 +1,5 @@
+package Variables
+
 fun main() {
     var i: Int = 10
     var l: Long = 100_000_000L

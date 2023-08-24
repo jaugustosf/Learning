@@ -1,3 +1,5 @@
+package ControlFlow
+
 fun main() {
     val input = "F"
     when (input) {
