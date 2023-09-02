@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e69735-f2e4-4a85-b80f-aa2d3e3227b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControlFlow/For.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControlFlow/If.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControlFlow/While.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operators/DefaltValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operators/Nothing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operators/Null.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/POO/Classes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/POO/ClassesUsingConstructors.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Any.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/Any.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Booleans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/Booleans.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BooleansLogicalOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Operators/BooleansLogicalOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Const.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/Const.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataTypes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/DataTypes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Math.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Operators/Math.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PrintLn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Strings/PrintLn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ReservedKeywords.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Strings/String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StringEquality.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Strings/StringEquality.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TypeInference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/TypeInference.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/VarXVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/VarXVal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Variables/Variables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhenExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ControlFlow/WhenExpression.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +35,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Dev/Projects/Learning/Kotlin/src/main/kotlin/POO",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Projects/Learning/Kotlin/src/main/kotlin/POO&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\Projects\Learning\Kotlin\src\main\kotlin\POO" />
@@ -79,7 +56,7 @@
       <recent name="D:\Dev\Projects\Learning\Kotlin\src\main\kotlin\ControlFlow" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Kotlin" />
