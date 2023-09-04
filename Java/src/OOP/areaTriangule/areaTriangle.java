@@ -1,4 +1,4 @@
-package OOP;
+package OOP.areaTriangule;
 import java.util.Locale;
 import java.util.Scanner;
 
