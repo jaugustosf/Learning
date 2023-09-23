@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RepLocal\\Learning\\C#\\Strings\\C#.csproj",
+      "projectUniqueName": "d:\\Dev\\Projects\\Learning\\C#\\Strings\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "D:\\RepLocal\\Learning\\C#\\Strings\\C#.csproj",
+      "projectPath": "d:\\Dev\\Projects\\Learning\\C#\\Strings\\C#.csproj",
       "packagesPath": "C:\\Users\\thega\\.nuget\\packages\\",
-      "outputPath": "D:\\RepLocal\\Learning\\C#\\Strings\\obj\\",
+      "outputPath": "d:\\Dev\\Projects\\Learning\\C#\\Strings\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thega\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
       }
     }
   }
