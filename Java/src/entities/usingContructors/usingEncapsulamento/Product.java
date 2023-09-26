@@ -1,8 +1,8 @@
 package entities.usingContructors.usingEncapsulamento;
 
 public class Product {
-    public String name;
-    public double price;
+    private String name;
+    private double price;
     public int quantity;
 
     public Product() {
