@@ -5,4 +5,5 @@ Tecnologias que estão presente nesse repositório:
   -  C
   -  HTML
   -  CSS
-  -  +Em breve
+  -  Java
+  -  Kotlin
