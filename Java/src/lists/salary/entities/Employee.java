@@ -21,4 +21,13 @@ public class Employee {
     public int getId() {
         return id;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        return id + ", " + name + ", " + String.format("%.2f", salary);
+    }
+
 }

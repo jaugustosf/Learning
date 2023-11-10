@@ -19,9 +19,9 @@ public class negatives {
 
         System.out.println("Negative numbers:");
 
-        for(int i = 0; i < vector.length; i++){
-            if(vector[i] < 0){
-                System.out.println(vector[i]);
+        for (int j : vector) {
+            if (j < 0) {
+                System.out.println(j);
             }
         }
 

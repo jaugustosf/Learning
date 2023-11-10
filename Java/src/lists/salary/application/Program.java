@@ -39,6 +39,22 @@ public class Program {
             list.add(new Employee(id,name,salary));
         }
 
+        System.out.println();
+        System.out.print("Enter the employee id that will have salary increase: ");
+        int searchId = sc.nextInt();
 
+        Employee emp = list.stream().filter(x -> x.getId() == searchId).findFirst().orElse(null);
+        
+        if(emp == null){
+            System.out.println("This id does not exist!");
+        }else{
+            System.out.print("Enter the percentage: ");
+            double percentage = sc.nextDouble();
+            emp.increaseSalary(percentage);
+        }
+
+        for(Employee x : list){
+            System.out.println(x);
+        }
     }
 }
