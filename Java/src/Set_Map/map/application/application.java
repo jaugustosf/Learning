@@ -15,7 +15,7 @@ public class application {
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(PATH))) {
             String line = bufferedReader.readLine();
-            
+
             while (line != null){
                 String[] campos = line.split(",");
                 String name = campos[0].trim();
